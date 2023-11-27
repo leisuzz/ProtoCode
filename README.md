@@ -3,7 +3,7 @@
 The ProtoCode can standardized protocol by either reading the input text or URL for the literature.
 To initiate protocol standardization in ProtoCode, users are required to submit their URL for the literature described in natural text, and choose the protocol for extraction using a dropdown menu. Upon submission, ProtoCode first performs a screening analysis to identify the text region corresponding protocol. Users can correct any miss-annotation by highlighting the region of interest. Next, ProtoCode performs data extraction on a protocol specific fine-tuned LLM. The extracted data, in JSONL format, can be converted into standardized natural language text. Moreover, if the corresponding protocol data contains information on equipment settings and/or programs, users can select the outputs for operating experimental equipment.
 
-## ProtoCode embraces a full-stack framework with five layers:
+## ProtoCode embraces a full-stack framework with four layers:
 
 1. Data source layer: This layer collects data from different sources.
 2. Protocol Extraction layer: This layer retrieves the content from article URLs, which is particularly helpful for reducing the input tokens for the model.
