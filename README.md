@@ -43,8 +43,31 @@ Extract and save content from URL
 
 ## Content_config
 
-Required setting: URL for the article- input_link
-Optional setting: 1. Output path - output_path 2. Number of keywords - num_keywords
+Config file for Paper Extraction
+
+### Required setting
+URL for the article- input_link
+
+### Optional setting
+1. Output path - output_path
+2. 2. Number of keywords - num_keywords
+
+## Conversion_config
+
+Config file for Robot Language
+
+### Required setting:
+
+Use extracted content - input_file
+Or customized content - input_content
+
+### Optional setting:
+
+1. Choice of fine-tuned model - model_selection
+2. Output path - output_path
+
+
+
 
 
 
