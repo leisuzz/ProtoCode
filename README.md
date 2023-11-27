@@ -17,7 +17,7 @@ conda env create -f environment.yml
 conda activate name_of_your_environment
 ```
 
-## Paper Extraction
+## 'Paper_Extraction'
 
 Extract and save content from URL
 
@@ -26,9 +26,9 @@ Extract and save content from URL
 1. Select a [BioRxiv](https://www.biorxiv.org/) URL (full-text) for the paper.
 2. Paste the URL on the input_path in the [input file].
 3. The result will be saved based on the output_path.
-4. Quality of the extracted protocol is determined by the number of keywords selected.
+4. The number of keywords selected determines the quality of the extracted protocol.
 
-## Robot Language
+## 'Robot Language'
 
 1. Read extracted content or custom input
 2. obtain output from the fine-tuned model
@@ -41,7 +41,7 @@ Extract and save content from URL
 3. Choose a number between 1 and 5 to select one of the five fine-tuned models.
 4. The result will be saved based on the output_path.
 
-## Content_config
+## 'content_config'
 
 Config file for Paper Extraction
 
@@ -52,7 +52,7 @@ URL for the article- input_link
 1. Output path - output_path
 2. Number of keywords - num_keywords
 
-## Conversion_config
+## 'conversion_config'
 
 Config file for Robot Language
 
