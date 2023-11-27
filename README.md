@@ -23,7 +23,7 @@ Extract and save content from URL
 
 ### Content Configuration
 
-1. Select a BioRxiv URL (full-text) for the paper.
+1. Select a [BioRxiv](https://www.biorxiv.org/) URL (full-text) for the paper.
 2. Paste the URL on the input_path in the [input file].
 3. The result will be saved based on the output_path.
 4. Quality of the extracted protocol is determined by the number of keywords selected.
