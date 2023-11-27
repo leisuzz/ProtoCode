@@ -17,9 +17,9 @@ conda env create -f environment.yml
 conda activate name_of_your_environment
 ```
 
-## 'Paper_Extraction'
+## Paper_Extraction
 
-Extract and save content from URL
+'Paper_Extraction' Extract and save content from URL
 
 ### Content Configuration
 
