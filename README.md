@@ -9,9 +9,10 @@ Ensure you have the required dependencies installed by running:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ```Navigate to the directory containing your environment.yml file using the terminal or command prompt.
 conda env create -f environment.yml
 conda activate name_of_your_environment
-
+```
 
