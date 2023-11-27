@@ -1,0 +1,37 @@
+[Properties]
+Name=
+Comment=
+DWS-ability=0x00000015
+
+[EstTime]
+Duration=00:00:00
+
+[000]
+Opcode=HEADER
+LidTemp=105.0∞C
+Wait=YES
+LowBlock=AUTO
+EmuMode=FULL
+TempMode=STANDARD
+Control=SIM_TUBE
+Impuls=NO
+Blocktype=ANY
+Slope=STEADY
+LidTrack=NO
+
+[001]
+Opcode=TEMP
+Temp=96∞C 96∞C 10:00 R=100%
+
+[002]
+Opcode=CYCLE
+TempNum=2
+Cycles=35
+Temp1=96∞C 96∞C 00:15 +0.0∞C +00:00 R=100%
+Temp2=58∞C 58∞C 00:30 +0.0∞C +00:00 R=100%
+
+[003]
+Opcode=END
+
+[~CRC32~]
+crc=0x1D14D6F3
