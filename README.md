@@ -28,8 +28,9 @@ conda activate name_of_your_environment
 3. The result will be saved based on the output_path.
 4. The number of keywords selected determines the quality of the extracted protocol.
 
-## 'Robot Language'
+## Robot Language
 
+[Robot Language](https://github.com/leisuzz/ProtoCode/blob/main/Robot%20Language.ipynb) has functions include:
 1. Read extracted content or custom input
 2. obtain output from the fine-tuned model
 3. convert the output to robot language
@@ -41,9 +42,9 @@ conda activate name_of_your_environment
 3. Choose a number between 1 and 5 to select one of the five fine-tuned models.
 4. The result will be saved based on the output_path.
 
-## 'content_config'
+## content_config
 
-Config file for Paper Extraction
+[content_config](https://github.com/leisuzz/ProtoCode/blob/main/content_config.ini) is the Config file for Paper Extraction
 
 ### Required setting
 URL for the article- input_link
@@ -52,9 +53,9 @@ URL for the article- input_link
 1. Output path - output_path
 2. Number of keywords - num_keywords
 
-## 'conversion_config'
+## conversion_config
 
-Config file for Robot Language
+[conversion_config](https://github.com/leisuzz/ProtoCode/blob/main/conversion_config.ini) is the config file for Robot Language
 
 ### Required setting:
 
