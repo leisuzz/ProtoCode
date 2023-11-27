@@ -50,7 +50,7 @@ URL for the article- input_link
 
 ### Optional setting
 1. Output path - output_path
-2. 2. Number of keywords - num_keywords
+2. Number of keywords - num_keywords
 
 ## Conversion_config
 
