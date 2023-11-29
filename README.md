@@ -1,4 +1,6 @@
-# ProtoCode
+# ProtoCode: Large Language Model pipeline for enhanced human and machine interpretable protocol resource construction
+
+![Framework of ProtoCode](https://github.com/leisuzz/ProtoCode/blob/main/figs/protocode_cover.png)
 
 The ProtoCode can standardized protocol by either reading the input text or URL for the literature.
 To initiate protocol standardization in ProtoCode, users are required to submit their URL for the literature described in natural text, and choose the protocol for extraction using a dropdown menu. Upon submission, ProtoCode first performs a screening analysis to identify the text region corresponding protocol. Users can correct any miss-annotation by highlighting the region of interest. Next, ProtoCode performs data extraction on a protocol specific fine-tuned LLM. The extracted data, in JSONL format, can be converted into standardized natural language text. Moreover, if the corresponding protocol data contains information on equipment settings and/or programs, users can select the outputs for operating experimental equipment.
