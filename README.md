@@ -60,7 +60,7 @@ conda activate name_of_your_environment
 [content_config](https://github.com/leisuzz/ProtoCode/blob/main/content_config.ini) is the Config file for Paper Extraction
 
 ### Required setting
-URL for the article- input_link
+* URL for the article- input_link
 
 ### Optional setting
 1. Output path - output_path
@@ -72,8 +72,8 @@ URL for the article- input_link
 
 ### Required setting:
 
-Use extracted content - input_file
-Or customized content - input_content
+* Use extracted content - input_file
+* Or customized content - input_content
 
 ### Optional setting:
 
