@@ -60,11 +60,25 @@ conda activate name_of_your_environment
 [content_config](https://github.com/leisuzz/ProtoCode/blob/main/content_config.ini) is the Config file for Paper Extraction
 
 ### Required setting
-* URL for the article- input_link
+
+* URL for the article
+'''
+[input_link]
+url = 
+'''
 
 ### Optional setting
+
 1. Output path - output_path
-2. Number of keywords - num_keywords
+2. Number of keywords - num_keywords # default is 4
+
+'''
+[output_path]
+out_path = ./protocols/protocol.csv
+
+[num_keywords]
+num_keywords = 
+'''
 
 ## conversion_config
 
