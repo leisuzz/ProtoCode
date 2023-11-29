@@ -62,23 +62,23 @@ conda activate name_of_your_environment
 ### Required setting
 
 * URL for the article
-'''
+```
 [input_link]
 url = 
-'''
+```
 
 ### Optional setting
 
 1. Output path - output_path
 2. Number of keywords - num_keywords # default is 4
 
-'''
+```
 [output_path]
 out_path = ./protocols/protocol.csv
 
 [num_keywords]
 num_keywords = 
-'''
+```
 
 ## conversion_config
 
@@ -89,12 +89,26 @@ num_keywords =
 * Use extracted content - input_file
 * Or customized content - input_content
 
+```
+[input_file]
+input_path = ./protocols/protocol.csv
+
+[input_content]
+content = 
+```
+
 ### Optional setting:
 
 1. Choice of fine-tuned model - model_selection
 2. Output path - output_path
 
+```
+[model_selection]
+model_num = 1
 
+[output_path]
+output_path = ./output_language/
+```
 
 
 
