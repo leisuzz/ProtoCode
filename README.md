@@ -110,7 +110,16 @@ model_num = 1
 output_path = ./output_language/
 ```
 
+## Citing ProtoCode
 
+```
+@article{,
+  title={Shuo Jiang, Daniel Evans-Yamamoto, Dennis Bersenev, Sucheendra K. Palaniappan, and Ayako Yachie-Kinoshita},
+  author={},
+  journal={},
+  year={2023}
+}
+```
 
 
 
