@@ -82,19 +82,23 @@ num_keywords =
 
 ## conversion_config
 
-[conversion_config](https://github.com/leisuzz/ProtoCode/blob/main/conversion_config.ini) is the config file for Robot Language
+[robot_language_config](https://github.com/leisuzz/ProtoCode/blob/main/robot_language_config.ini) is the config file for Robot Language
 
 ### Required setting:
 
 * Use extracted content - input_file
 * Or customized content - input_content
+* API keys from OPENAI
 
 ```
 [input_file]
 input_path = ./protocols/protocol.csv
 
 [input_content]
-content = 
+content =
+
+[openai_key]
+key =
 ```
 
 ### Optional setting:
