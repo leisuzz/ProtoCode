@@ -7,10 +7,10 @@ To initiate protocol standardization in ProtoCode, users are required to submit 
 
 ## ProtoCode embraces a full-stack framework with four layers:
 
-1. Data source layer: This layer collects data from different sources.
-2. Protocol Extraction layer: This layer retrieves the content from article URLs, which is particularly helpful for reducing the input tokens for the model.
-3. LLM layer: This layer mitigates the input protocols, ensuring the model’s relevance and accuracy with fine-tuning and cross-validation.
-4. Application layer: Practical applications, this layer highlights the potential capability of the ProtoCode in different functions.
+1. **Data source layer**: This layer collects data from different sources.
+2. **Protocol Extraction layer**: This layer retrieves the content from article URLs, which is particularly helpful for reducing the input tokens for the model.
+3. **LLM layer**: This layer mitigates the input protocols, ensuring the model’s relevance and accuracy with fine-tuning and cross-validation.
+4. **Application layer**: Practical applications, this layer highlights the potential capability of the ProtoCode in different functions.
 
 * ProtoCode Framework: Large Language Model for enhanced human and machine interpretable protocol resource construction
 
