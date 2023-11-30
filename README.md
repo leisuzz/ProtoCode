@@ -30,9 +30,9 @@ conda env create -f environment.yml
 conda activate name_of_your_environment
 ```
 
-## Paper_Extraction
+## Content_Extraction
 
-[Paper_Extraction](https://github.com/leisuzz/ProtoCode/blob/main/Paper_Extraction.ipynb) extract and save content from URL
+[ProtoCode_Content_Extraction](https://github.com/leisuzz/ProtoCode/blob/main/ProtoCode_Content_Extraction.ipynb) extract and save content from URL
 
 ### Content Configuration
 
@@ -40,20 +40,6 @@ conda activate name_of_your_environment
 2. Paste the URL on the input_path in the [input file].
 3. The result will be saved based on the output_path.
 4. The number of keywords selected determines the quality of the extracted protocol.
-
-## Robot Language
-
-[Robot Language](https://github.com/leisuzz/ProtoCode/blob/main/Robot%20Language.ipynb) has functions include:
-1. Read extracted content or custom input
-2. obtain output from the fine-tuned model
-3. convert the output to robot language
-
-### Conversion Configuration
-
-1. Use the extracted protocol as the input from the [input_file].
-2. If the quality is not satisfactory, manually extract content and paste it in [input_content].
-3. Choose a number between 1 and 5 to select one of the five fine-tuned models.
-4. The result will be saved based on the output_path.
 
 ## content_config
 
@@ -80,9 +66,23 @@ out_path = ./protocols/protocol.csv
 num_keywords = 
 ```
 
-## conversion_config
+## Application
 
-[robot_language_config](https://github.com/leisuzz/ProtoCode/blob/main/robot_language_config.ini) is the config file for Robot Language
+[ProtoCode_Application](https://github.com/leisuzz/ProtoCode/blob/main/ProtoCode_Application.ipynb) has functions include:
+1. Read extracted content or custom input
+2. obtain output from the fine-tuned model
+3. convert the output to robot language
+
+### Application Configuration
+
+1. Use the extracted protocol as the input from the [input_file].
+2. If the quality is not satisfactory, manually extract content and paste it in [input_content].
+3. Choose a number between 1 and 5 to select one of the five fine-tuned models.
+4. The result will be saved based on the output_path.
+
+## application_config
+
+[application_config](https://github.com/leisuzz/ProtoCode/blob/main/application_config.ini) is the config file for Robot Language
 
 ### Required setting:
 
