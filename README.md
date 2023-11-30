@@ -30,7 +30,7 @@ conda env create -f environment.yml
 conda activate name_of_your_environment
 ```
 
-## Content_Extraction
+## Part I: Content_Extraction
 
 [ProtoCode_Content_Extraction](https://github.com/leisuzz/ProtoCode/blob/main/ProtoCode_Content_Extraction.ipynb) extract and save content from URL
 
@@ -41,7 +41,7 @@ conda activate name_of_your_environment
 3. The result will be saved based on the output_path.
 4. The number of keywords selected determines the quality of the extracted protocol.
 
-### content_config
+### File Name: content_config
 
 [content_config](https://github.com/leisuzz/ProtoCode/blob/main/content_config.ini) is the Config file for Paper Extraction
 
@@ -66,7 +66,7 @@ out_path = ./protocols/protocol.csv
 num_keywords = 
 ```
 
-## Application
+## Part II: Application
 
 [ProtoCode_Application](https://github.com/leisuzz/ProtoCode/blob/main/ProtoCode_Application.ipynb) has functions include:
 1. Read extracted content or custom input
@@ -80,11 +80,11 @@ num_keywords =
 3. Choose a number between 1 and 5 to select one of the five fine-tuned models.
 4. The result will be saved based on the output_path.
 
-## application_config
+### File Name: application_config
 
 [application_config](https://github.com/leisuzz/ProtoCode/blob/main/application_config.ini) is the config file for Robot Language
 
-### Required setting:
+#### Required setting:
 
 * Use extracted content - input_file
 * Or customized content - input_content
@@ -101,7 +101,7 @@ content =
 key =
 ```
 
-### Optional setting:
+#### Optional setting:
 
 1. Choice of fine-tuned model - model_selection
 2. Output path - output_path
