@@ -66,7 +66,7 @@ out_path = ./protocols/protocol.csv
 num_keywords = 
 ```
 
-## Part II: Application - Retrieve result from fine-tuned model and convert to robot language
+## Part II: Application
 
 [ProtoCode_Application](https://github.com/leisuzz/ProtoCode/blob/main/ProtoCode_Application.ipynb) has functions include:
 1. Read extracted content or custom input
