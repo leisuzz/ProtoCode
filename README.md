@@ -114,6 +114,11 @@ model_num = 1
 output_path = ./output_language/
 ```
 
+## Error.log
+
+* The file will store errors if they occur in any step
+
+
 ## Citing ProtoCode
 
 ```
