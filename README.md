@@ -41,11 +41,11 @@ conda activate name_of_your_environment
 3. The result will be saved based on the output_path.
 4. The number of keywords selected determines the quality of the extracted protocol.
 
-## content_config
+### content_config
 
 [content_config](https://github.com/leisuzz/ProtoCode/blob/main/content_config.ini) is the Config file for Paper Extraction
 
-### Required setting
+#### Required setting
 
 * URL for the article
 ```
@@ -53,7 +53,7 @@ conda activate name_of_your_environment
 url = 
 ```
 
-### Optional setting
+#### Optional setting
 
 1. Output path - output_path
 2. Number of keywords - num_keywords # default is 4
